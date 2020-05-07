@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="100">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:text="Rank"
+        android:id="@+id/rankText"
+        android:textSize="20dp"
+        android:layout_weight="28"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:text="Name"
+        android:id="@+id/nameText1"
+        android:textSize="20dp"
+        android:layout_weight="25"/>
+
+    <TextView
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:textAlignment="center"
+    android:text="Score"
+    android:id="@+id/scoreText1"
+        android:textSize="20dp"
+    android:layout_weight="25"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:textAlignment="center"
+        android:text="Date"
+        android:id="@+id/dateText1"
+        android:textSize="20dp"
+        android:layout_weight="22"/>
+
+</LinearLayout>

@@ -1,0 +1,2 @@
+rootProject.name='Reaction Game'
+include ':app'
